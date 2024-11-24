@@ -1,0 +1,1025 @@
+[
+  {
+    "seq": 1,
+    "category": "simple",
+    "name": "샐러디",
+    "subname": "삼성점",
+    "address": "서울 강남구 삼성로96길 6 LG트윈텔1 101-1호",
+    "link": "https://naver.me/FrlolP63"
+  },
+  {
+    "seq": 2,
+    "category": "simple",
+    "name": "슬로우캘리",
+    "subname": "삼성점",
+    "address": "서울 강남구 삼성로 517 1층 110-1호",
+    "link": "https://naver.me/5XUBRpUi"
+  },
+  {
+    "seq": 3,
+    "category": "simple",
+    "name": "써브웨이",
+    "subname": "삼성점",
+    "address": "서울 강남구 삼성로 520",
+    "link": "https://naver.me/F1IMgcGb"
+  },
+  {
+    "seq": 4,
+    "category": "simple",
+    "name": "올라포케",
+    "subname": "삼성점",
+    "address": "서울 강남구 영동대로85길 34 1층 102호",
+    "link": "https://naver.me/Gd1QwyxH"
+  },
+  {
+    "seq": 5,
+    "category": "simple",
+    "name": "크리스피프레시",
+    "subname": "파르나스몰점",
+    "address": "서울 강남구 테헤란로 521 파르나스몰 B1 F-5, 6호",
+    "link": "https://naver.me/5u5K1zah"
+  },
+  {
+    "seq": 6,
+    "category": "simple",
+    "name": "피그인더가든",
+    "subname": "코엑스점",
+    "address": "서울 강남구 테헤란로87길 22 도심공항터미널 1층 R005호",
+    "link": "https://naver.me/5KZOSLpn"
+  },
+  {
+    "seq": 7,
+    "category": "simple",
+    "name": "Poke all day 포케&샐러드",
+    "subname": "삼성점",
+    "address": "서울 강남구 테헤란로88길 10 지하1층 B108호",
+    "link": "https://naver.me/5hJj56gC"
+  },
+  {
+    "seq": 8,
+    "category": "simple",
+    "name": "카페 리브롱",
+    "subname": "",
+    "address": "서울 강남구 테헤란로79길 51 1층 103호",
+    "link": "https://naver.me/GmVdFiEr"
+  },
+  {
+    "seq": 9,
+    "category": "simple",
+    "name": "비마이게스트",
+    "subname": "삼성점",
+    "address": "서울 강남구 테헤란로107길 6 두양빌딩 1층 102호",
+    "link": "https://naver.me/F6mxm1A4"
+  },
+  {
+    "seq": 10,
+    "category": "simple",
+    "name": "바이트샌드위치&샐러드",
+    "subname": "",
+    "address": "서울 강남구 봉은사로 474 1층102호",
+    "link": "https://naver.me/FjojrmxA"
+  },
+  {
+    "seq": 11,
+    "category": "simple",
+    "name": "클로버포케",
+    "subname": "삼성점",
+    "address": "서울 강남구 봉은사로74길 14 지상1층 101호",
+    "link": "https://naver.me/xxAe2365"
+  },
+  {
+    "seq": 12,
+    "category": "simple",
+    "name": "훅트포케",
+    "subname": "선릉점",
+    "address": "서울 강남구 선릉로86길 16-3 1층 훅트",
+    "link": "https://naver.me/xswYU2Ju"
+  },
+  {
+    "seq": 13,
+    "category": "etc",
+    "name": "루나아시아",
+    "subname": "",
+    "address": "서울 강남구 삼성로100길 15 명당빌딩",
+    "link": "https://naver.me/FjojxbSH"
+  },
+  {
+    "seq": 14,
+    "category": "etc",
+    "name": "반포식스",
+    "subname": "포스코사거리점",
+    "address": "서울 강남구 삼성로96길 7 1층",
+    "link": "https://naver.me/Gie1YVfu"
+  },
+  {
+    "seq": 15,
+    "category": "etc",
+    "name": "르사이공",
+    "subname": "코엑스몰점",
+    "address": "서울 강남구 봉은사로 524 코엑스몰 B1 H104",
+    "link": "https://naver.me/G5rQuslO"
+  },
+  {
+    "seq": 16,
+    "category": "etc",
+    "name": "생어거스틴",
+    "subname": "파르나스몰점",
+    "address": "서울 강남구 테헤란로 521 그랜드인터콘티넨탈호텔 B1",
+    "link": "https://naver.me/xhHnH334"
+  },
+  {
+    "seq": 17,
+    "category": "etc",
+    "name": "무삥과팟타이",
+    "subname": "삼성점",
+    "address": "서울 강남구 삼성로96길 26-12 2층",
+    "link": "https://naver.me/FfMWBSKO"
+  },
+  {
+    "seq": 18,
+    "category": "etc",
+    "name": "스트릿",
+    "subname": "파르나스몰점",
+    "address": "서울 강남구 테헤란로 521 지하1층 F-9, 10호",
+    "link": "https://naver.me/G4xGqk1c"
+  },
+  {
+    "seq": 19,
+    "category": "etc",
+    "name": "델리커리",
+    "subname": "삼성포스코점",
+    "address": "서울 강남구 테헤란로 440 포스코센터 지하 1층",
+    "link": "https://naver.me/5DHjOTsy"
+  },
+  {
+    "seq": 20,
+    "category": "etc",
+    "name": "쿠차라",
+    "subname": "코엑스몰오크우드점",
+    "address": "서울 강남구 테헤란로87길 46 오크우드호텔컨벤션빌딩 지하2층 2A05호",
+    "link": "https://naver.me/Goz5wSs2"
+  },
+  {
+    "seq": 21,
+    "category": "etc",
+    "name": "킹케밥",
+    "subname": "포스코점",
+    "address": "서울 강남구 테헤란로 440 지하1층 킹케밥 포스코점",
+    "link": "https://naver.me/G7DMDxiV"
+  },
+  {
+    "seq": 22,
+    "category": "etc",
+    "name": "비아게레로",
+    "subname": "",
+    "address": "서울 강남구 봉은사로78길 12 101호",
+    "link": "https://naver.me/FBwDDFzR"
+  },
+  {
+    "seq": 23,
+    "category": "etc",
+    "name": "도스타코스",
+    "subname": "선릉점",
+    "address": "서울 강남구 테헤란로69길 10 지하1층",
+    "link": "https://naver.me/5xlLtY0m"
+  },
+  {
+    "seq": 24,
+    "category": "etc",
+    "name": "소이연남",
+    "subname": "스타필드 코엑스몰점",
+    "address": "서울 강남구 테헤란로87길 36 B1층 B10호",
+    "link": "https://naver.me/5T4zxQAW"
+  },
+  {
+    "seq": 25,
+    "category": "etc",
+    "name": "프레시 부리또",
+    "subname": "",
+    "address": "서울 강남구 테헤란로 423 현대타워 1층",
+    "link": "https://naver.me/5DjwnRrx"
+  },
+  {
+    "seq": 26,
+    "category": "snack",
+    "name": "레드바삭",
+    "subname": "",
+    "address": "서울 강남구 삼성로 517 채널리저브상가 1층 102호",
+    "link": "https://naver.me/xdIf1OqE"
+  },
+  {
+    "seq": 27,
+    "category": "snack",
+    "name": "고씨떡볶이",
+    "subname": "삼성점",
+    "address": "서울 강남구 봉은사로84길 34",
+    "link": "https://naver.me/F7CyiRWr"
+  },
+  {
+    "seq": 28,
+    "category": "snack",
+    "name": "사이드쇼",
+    "subname": "코엑스점",
+    "address": "서울 강남구 테헤란로87길 22 지하1층 Q124호",
+    "link": "https://naver.me/FlJxWmvS"
+  },
+  {
+    "seq": 29,
+    "category": "snack",
+    "name": "자매분식",
+    "subname": "",
+    "address": "서울 강남구 삼성로103길 12",
+    "link": "https://naver.me/5U1NLLX1"
+  },
+  {
+    "seq": 30,
+    "category": "snack",
+    "name": "얌샘김밥",
+    "subname": "삼성점",
+    "address": "서울 강남구 테헤란로87길 17 1층",
+    "link": "https://naver.me/xnKmhndy"
+  },
+  {
+    "seq": 31,
+    "category": "snack",
+    "name": "오미마리",
+    "subname": "",
+    "address": "서울 강남구 삼성로81길 22 101호 오미마리",
+    "link": "https://naver.me/GEAHgfnr"
+  },
+  {
+    "seq": 32,
+    "category": "snack",
+    "name": "오 예술김밥",
+    "subname": "",
+    "address": "서울 강남구 삼성로96길 7 1층",
+    "link": "https://naver.me/5YaoOazU"
+  },
+  {
+    "seq": 33,
+    "category": "western",
+    "name": "미태리",
+    "subname": "선릉포스코점",
+    "address": "서울 강남구 선릉로90길 70 2층",
+    "link": "https://naver.me/GIqt3zKv"
+  },
+  {
+    "seq": 34,
+    "category": "western",
+    "name": "애니홀",
+    "subname": "",
+    "address": "서울 강남구 테헤란로77길 11-10 1층",
+    "link": "https://naver.me/IMQpGODY"
+  },
+  {
+    "seq": 35,
+    "category": "western",
+    "name": "블랙랩",
+    "subname": "",
+    "address": "서울 강남구 선릉로96길 5-16",
+    "link": "https://naver.me/5Z0v5I8D"
+  },
+  {
+    "seq": 36,
+    "category": "western",
+    "name": "옐로트렁크",
+    "subname": "",
+    "address": "서울 강남구 테헤란로86길 10",
+    "link": "https://naver.me/5cTJ6ziH"
+  },
+  {
+    "seq": 37,
+    "category": "western",
+    "name": "파이어벨",
+    "subname": "",
+    "address": "서울 강남구 테헤란로87길 46 오크우드 프리미어 코엑스 센터 B2 2A11호",
+    "link": "https://naver.me/GrqZpnUl"
+  },
+  {
+    "seq": 38,
+    "category": "western",
+    "name": "스폰티니 PUB",
+    "subname": "삼성중앙점",
+    "address": "서울 강남구 삼성로 550 1층 스폰티니",
+    "link": "https://naver.me/59jGg7hK"
+  },
+  {
+    "seq": 39,
+    "category": "western",
+    "name": "슈퍼두퍼",
+    "subname": "코엑스 스타필드점",
+    "address": "서울 강남구 영동대로 513 지하1층 코엑스 스타필드몰",
+    "link": "https://naver.me/FyxDiSoV"
+  },
+  {
+    "seq": 40,
+    "category": "western",
+    "name": "브루클린더버거조인트",
+    "subname": "삼성점",
+    "address": "서울 강남구 봉은사로84길 10",
+    "link": "https://naver.me/535BXxqJ"
+  },
+  {
+    "seq": 41,
+    "category": "western",
+    "name": "바스버거",
+    "subname": "선릉점",
+    "address": "서울 강남구 삼성로85길 19 1층 1호",
+    "link": "https://naver.me/xprg0Kho"
+  },
+  {
+    "seq": 42,
+    "category": "western",
+    "name": "패티 버거",
+    "subname": "",
+    "address": "서울 강남구 삼성로107길 18 지상 1층 101호",
+    "link": "https://naver.me/IDovVJeI"
+  },
+  {
+    "seq": 43,
+    "category": "western",
+    "name": "유아왓유잇",
+    "subname": "코엑스점",
+    "address": "서울 강남구 영동대로 513 스타필드코엑스몰 지하1층 H103B호",
+    "link": "https://naver.me/xznVYOVA"
+  },
+  {
+    "seq": 44,
+    "category": "western",
+    "name": "맥도날드",
+    "subname": "삼성역점",
+    "address": "서울 강남구 삼성로92길 29 도일빌딩",
+    "link": "https://naver.me/xNdLkqHp"
+  },
+  {
+    "seq": 45,
+    "category": "western",
+    "name": "버거킹",
+    "subname": "삼성중앙역점",
+    "address": "서울 강남구 봉은사로 502",
+    "link": "https://naver.me/xUSte3bY"
+  },
+  {
+    "seq": 46,
+    "category": "japanese",
+    "name": "카레공간",
+    "subname": "대치점",
+    "address": "서울 강남구 테헤란로78길 16 B1",
+    "link": "https://naver.me/GJrEtYtv"
+  },
+  {
+    "seq": 47,
+    "category": "japanese",
+    "name": "카토멘",
+    "subname": "",
+    "address": "서울 강남구 삼성로85길 39 가리온빌딩 1층 카토멘",
+    "link": "https://naver.me/55IyxaNc"
+  },
+  {
+    "seq": 48,
+    "category": "japanese",
+    "name": "라멘호토리",
+    "subname": "대치점",
+    "address": "서울 강남구 삼성로 434 1층",
+    "link": "https://naver.me/FvFcdj75"
+  },
+  {
+    "seq": 49,
+    "category": "japanese",
+    "name": "동경규동",
+    "subname": "삼성점",
+    "address": "서울 강남구 테헤란로83길 15 1층 동경규동 삼성점",
+    "link": "https://naver.me/x4buv555"
+  },
+  {
+    "seq": 50,
+    "category": "japanese",
+    "name": "하루",
+    "subname": "",
+    "address": "서울 강남구 삼성로 511 골든타워 B1",
+    "link": "https://naver.me/IIqfm1k5"
+  },
+  {
+    "seq": 51,
+    "category": "japanese",
+    "name": "우마쿠라",
+    "subname": "",
+    "address": "서울 강남구 선릉로100길 54 삼성빌딩 1층",
+    "link": "https://naver.me/GbEcIRcJ"
+  },
+  {
+    "seq": 52,
+    "category": "japanese",
+    "name": "유리카모메",
+    "subname": "선릉점",
+    "address": "서울 강남구 삼성로95길 24",
+    "link": "https://naver.me/5xlamr87"
+  },
+  {
+    "seq": 53,
+    "category": "japanese",
+    "name": "훈이자카야",
+    "subname": "",
+    "address": "서울 강남구 삼성로84길 28 1층",
+    "link": "https://naver.me/5vIYCRM6"
+  },
+  {
+    "seq": 54,
+    "category": "japanese",
+    "name": "모리",
+    "subname": "",
+    "address": "서울 강남구 삼성로84길 10",
+    "link": "https://naver.me/FrKl8GpU"
+  },
+  {
+    "seq": 55,
+    "category": "japanese",
+    "name": "브라운돈까스",
+    "subname": "강남 포스코점",
+    "address": "서울 강남구 테헤란로 440 포스코센터 지하1층 A03호",
+    "link": "https://naver.me/FZJBBS58"
+  },
+  {
+    "seq": 56,
+    "category": "japanese",
+    "name": "잇쇼우",
+    "subname": "",
+    "address": "서울 강남구 선릉로 524 대림아크로텔 109호",
+    "link": "https://naver.me/Fvn7VlT8"
+  },
+  {
+    "seq": 57,
+    "category": "japanese",
+    "name": "정일면",
+    "subname": "삼성점 본점",
+    "address": "서울 강남구 테헤란로83길 46 1층~2층",
+    "link": "https://naver.me/xr6RhWOl"
+  },
+  {
+    "seq": 58,
+    "category": "japanese",
+    "name": "후토루",
+    "subname": "삼성점",
+    "address": "서울 강남구 테헤란로 511 1층 101호",
+    "link": "https://naver.me/xprkzL7G"
+  },
+  {
+    "seq": 59,
+    "category": "japanese",
+    "name": "부엉이식당",
+    "subname": "",
+    "address": "서울 강남구 삼성로86길 12 지상 2층",
+    "link": "https://naver.me/Gul0Ay8r"
+  },
+  {
+    "seq": 60,
+    "category": "japanese",
+    "name": "작은동경",
+    "subname": "",
+    "address": "서울 강남구 테헤란로70길 25 2층 202호 작은동경",
+    "link": "https://naver.me/x22ThzjG"
+  },
+  {
+    "seq": 61,
+    "category": "japanese",
+    "name": "부탄츄",
+    "subname": "선릉점",
+    "address": "서울 강남구 삼성로85길 33 2층 202호",
+    "link": "https://naver.me/5oir1IKE"
+  },
+  {
+    "seq": 62,
+    "category": "japanese",
+    "name": "덴키카츠",
+    "subname": "",
+    "address": "서울 강남구 테헤란로83길 14 1층 106호",
+    "link": "https://naver.me/Go2VfpZG"
+  },
+  {
+    "seq": 63,
+    "category": "japanese",
+    "name": "이나세",
+    "subname": "",
+    "address": "서울 강남구 테헤란로 521 파르나스몰 지하 1층 F-15호",
+    "link": "https://naver.me/GFpeT54C"
+  },
+  {
+    "seq": 64,
+    "category": "japanese",
+    "name": "히노아지",
+    "subname": "포스코센터점",
+    "address": "서울 강남구 테헤란로 440 포스코센터 지하1층 식당가",
+    "link": "https://naver.me/xVlFfaFB"
+  },
+  {
+    "seq": 65,
+    "category": "japanese",
+    "name": "호호식당",
+    "subname": "스타필드코엑스",
+    "address": "서울 강남구 영동대로 513 B1층 H103A호",
+    "link": "https://naver.me/FQR9fD46"
+  },
+  {
+    "seq": 66,
+    "category": "japanese",
+    "name": "155 포차 & 펍",
+    "subname": "",
+    "address": "서울 강남구 삼성로100길 12 제이타워 1층",
+    "link": "https://naver.me/FQIAU8Tx"
+  },
+  {
+    "seq": 67,
+    "category": "japanese",
+    "name": "오네짱돈카츠",
+    "subname": "",
+    "address": "서울 강남구 테헤란로78길 16 노벨빌딩 지하1층",
+    "link": "https://naver.me/GpJFwlOT"
+  },
+  {
+    "seq": 68,
+    "category": "japanese",
+    "name": "장정정",
+    "subname": "",
+    "address": "서울 강남구 선릉로82길 15 1층",
+    "link": "https://naver.me/x6PU1WUM"
+  },
+  {
+    "seq": 69,
+    "category": "japanese",
+    "name": "나이스샤워",
+    "subname": "선릉점",
+    "address": "서울 강남구 선릉로86길 26 지상 2층 202호",
+    "link": "https://naver.me/xhnFFxSR"
+  },
+  {
+    "seq": 70,
+    "category": "japanese",
+    "name": "스노우폭스",
+    "subname": "선릉역점",
+    "address": "서울 강남구 테헤란로 415 L7 호텔건물 1층",
+    "link": "https://naver.me/FBwDQjCk"
+  },
+  {
+    "seq": 71,
+    "category": "japanese",
+    "name": "누누카츠&모밀",
+    "subname": "",
+    "address": "서울 강남구 테헤란로83길 14 지하 1층 104,105호",
+    "link": "https://naver.me/FgOhcVoJ"
+  },
+  {
+    "seq": 72,
+    "category": "japanese",
+    "name": "오레노카츠",
+    "subname": "",
+    "address": "서울 강남구 삼성로81길 37",
+    "link": "https://naver.me/GG83ufwE"
+  },
+  {
+    "seq": 73,
+    "category": "japanese",
+    "name": "백소정",
+    "subname": "삼성점",
+    "address": "서울 강남구 삼성로86길 26 드림 빌딩 2층 백소정 삼성점",
+    "link": "https://naver.me/xmxrF1Pu"
+  },
+  {
+    "seq": 74,
+    "category": "japanese",
+    "name": "모구모구돈부리",
+    "subname": "",
+    "address": "서울 강남구 영동대로85길 34 대치2차아이파크 1층 101호",
+    "link": "https://naver.me/GqBs8GUJ"
+  },
+  {
+    "seq": 75,
+    "category": "japanese",
+    "name": "쇼지",
+    "subname": "삼성본점",
+    "address": "서울 강남구 삼성로100길 14 1층",
+    "link": "https://naver.me/GipLNQqX"
+  },
+  {
+    "seq": 76,
+    "category": "japanese",
+    "name": "멘쇼쿠",
+    "subname": "코엑스점",
+    "address": "서울 강남구 테헤란로87길 36 도심공항타워 B1층 B03호",
+    "link": "https://naver.me/5D8nAFB1"
+  },
+  {
+    "seq": 77,
+    "category": "japanese",
+    "name": "부타이 1막",
+    "subname": "",
+    "address": "서울 강남구 테헤란로88길 22",
+    "link": "https://naver.me/FFviHQZC"
+  },
+  {
+    "seq": 78,
+    "category": "chinese",
+    "name": "마라공방",
+    "subname": "포스코센터점",
+    "address": "서울 강남구 테헤란로 440 포스코센터 지하1층 A03호",
+    "link": "https://naver.me/G9si2TuD"
+  },
+  {
+    "seq": 79,
+    "category": "chinese",
+    "name": "훠궈야",
+    "subname": "파르나스몰점",
+    "address": "서울 강남구 테헤란로 521 파르나스몰 지하 1층",
+    "link": "https://naver.me/xPIpw3p0"
+  },
+  {
+    "seq": 80,
+    "category": "chinese",
+    "name": "일일향",
+    "subname": "삼성11호점",
+    "address": "서울 강남구 테헤란로83길 20",
+    "link": "https://naver.me/GBfllB8S"
+  },
+  {
+    "seq": 81,
+    "category": "chinese",
+    "name": "딤딤섬",
+    "subname": "파르나스몰점",
+    "address": "서울 강남구 테헤란로 521 파르나스몰 지하 1층",
+    "link": "https://naver.me/xE1qjT3n"
+  },
+  {
+    "seq": 82,
+    "category": "chinese",
+    "name": "화양연화",
+    "subname": "삼성점",
+    "address": "서울 강남구 테헤란로83길 31 지하1층",
+    "link": "https://naver.me/5dO4A4rT"
+  },
+  {
+    "seq": 83,
+    "category": "chinese",
+    "name": "니뽕내뽕",
+    "subname": "코엑스점",
+    "address": "서울 강남구 영동대로 513 지하1층 H117호",
+    "link": "https://naver.me/FEJd9NQL"
+  },
+  {
+    "seq": 84,
+    "category": "chinese",
+    "name": "산왕우육면",
+    "subname": "",
+    "address": "서울 강남구 삼성로96길 26-12 1층",
+    "link": "https://naver.me/xjLf9Nb8"
+  },
+  {
+    "seq": 85,
+    "category": "chinese",
+    "name": "명가우육면",
+    "subname": "선릉역점",
+    "address": "서울 강남구 선릉로90길 56 1층 106호",
+    "link": "https://naver.me/5c2x0dWH"
+  },
+  {
+    "seq": 86,
+    "category": "chinese",
+    "name": "탄탄면공방",
+    "subname": "파르나스몰 본점",
+    "address": "서울 강남구 테헤란로 521 파르나스타워 지하 1층 탄탄면공방",
+    "link": "https://naver.me/xor83Bir"
+  },
+  {
+    "seq": 87,
+    "category": "chinese",
+    "name": "무탄",
+    "subname": "코엑스점",
+    "address": "서울 강남구 영동대로 513 스타필드 코엑스 B1층 H121호",
+    "link": "https://naver.me/F2Ymyq8O"
+  },
+  {
+    "seq": 88,
+    "name": "르벵룰즈",
+    "subname": "",
+    "address": "서울 강남구 삼성로95길 27 영창빌딩 1층 LEVAINRULES",
+    "link": "https://naver.me/GQcehL6c"
+  },
+  {
+    "seq": 89,
+    "category": "korean",
+    "name": "문배동 육칼",
+    "subname": "삼성동직영점",
+    "address": "서울 강남구 삼성로96길 3",
+    "link": "https://naver.me/5ncPKUAC"
+  },
+  {
+    "seq": 90,
+    "category": "korean",
+    "name": "마초갈비",
+    "subname": "삼성동점",
+    "address": "서울 강남구 삼성로96길 7",
+    "link": "https://naver.me/GWFnaHB4"
+  },
+  {
+    "seq": 91,
+    "category": "korean",
+    "name": "대원정",
+    "subname": "",
+    "address": "서울 강남구 테헤란로77길 17 승광빌딩1층 대원정",
+    "link": "https://naver.me/GROzmdS8"
+  },
+  {
+    "seq": 92,
+    "category": "korean",
+    "name": "이태리부대찌개",
+    "subname": "삼성점",
+    "address": "서울 강남구 삼성로104길 16 은지빌딩 2층",
+    "link": "https://naver.me/xzcL2qlh"
+  },
+  {
+    "seq": 93,
+    "category": "korean",
+    "name": "이화옥",
+    "subname": "삼성본점",
+    "address": "서울 강남구 테헤란로83길 40 1층",
+    "link": "https://naver.me/FgivyqUP"
+  },
+  {
+    "seq": 94,
+    "category": "korean",
+    "name": "경평면옥",
+    "subname": "",
+    "address": "서울 강남구 삼성로104길 12 윤빈빌딩 2층",
+    "link": "https://naver.me/xQONNTqa"
+  },
+  {
+    "seq": 95,
+    "category": "korean",
+    "name": "속이 꽉찬 만두 99.9",
+    "subname": "",
+    "address": "서울 강남구 삼성로75길 26",
+    "link": "https://naver.me/5uxieE7Y"
+  },
+  {
+    "seq": 96,
+    "category": "korean",
+    "name": "종인이네 만두",
+    "subname": "",
+    "address": "서울 강남구 테헤란로81길 60-4 1층 종인이네 만두",
+    "link": "https://naver.me/xZDVm8pg"
+  },
+  {
+    "seq": 97,
+    "category": "korean",
+    "name": "피양콩할머니",
+    "subname": "",
+    "address": "서울 강남구 삼성로81길 30",
+    "link": "https://naver.me/G6DyD9tg"
+  },
+  {
+    "seq": 98,
+    "category": "korean",
+    "name": "박서방순대국밥",
+    "subname": "삼성본점",
+    "address": "서울 강남구 삼성로 520",
+    "link": "https://naver.me/GQ4NHCeg"
+  },
+  {
+    "seq": 99,
+    "category": "korean",
+    "name": "삼성숯불갈비",
+    "subname": "",
+    "address": "서울 강남구 테헤란로81길 34 1층 삼성숯불갈비",
+    "link": "https://naver.me/FniULzrb"
+  },
+  {
+    "seq": 100,
+    "category": "korean",
+    "name": "솔솥",
+    "subname": "선릉 포스코센터점",
+    "address": "서울 강남구 테헤란로 440 B1층 C07 솔솥 포스코센터점",
+    "link": "https://naver.me/GGULFeWt"
+  },
+  {
+    "seq": 101,
+    "category": "korean",
+    "name": "미사리밀빛초계국수",
+    "subname": "삼성코엑스몰점",
+    "address": "서울 강남구 영동대로 513 코엑스몰 B1 J114",
+    "link": "https://naver.me/G2UVDoLY"
+  },
+  {
+    "seq": 102,
+    "category": "korean",
+    "name": "전우소고기해장국",
+    "subname": "",
+    "address": "서울 강남구 테헤란로81길 46-3 1층",
+    "link": "https://naver.me/GsTjSxRA"
+  },
+  {
+    "seq": 103,
+    "category": "korean",
+    "name": "콩심 삼성점",
+    "subname": "",
+    "address": "서울 강남구 삼성로96길 7 지하1층",
+    "link": "https://naver.me/FsKVRmMM"
+  },
+  {
+    "seq": 104,
+    "category": "korean",
+    "name": "무월식탁",
+    "subname": "파르나스점",
+    "address": "서울 강남구 테헤란로 521 파르나스몰 지하1층 F-16",
+    "link": "https://naver.me/GIqtzrW7"
+  },
+  {
+    "seq": 105,
+    "category": "korean",
+    "name": "춘하추동밀면",
+    "subname": "대치직영점",
+    "address": "서울 강남구 삼성로81길 23 1층",
+    "link": "https://naver.me/xEMdY57w"
+  },
+  {
+    "seq": 106,
+    "category": "korean",
+    "name": "쭈꾸미공장",
+    "subname": "",
+    "address": "서울 강남구 선릉로86길 44-5 지상1층 101호",
+    "link": "https://naver.me/52heVnGg"
+  },
+  {
+    "seq": 107,
+    "category": "korean",
+    "name": "아우네부대찌개&삼겹살",
+    "subname": "삼성본점",
+    "address": "서울 강남구 테헤란로83길 29",
+    "link": "https://naver.me/x8limX4p"
+  },
+  {
+    "seq": 108,
+    "category": "korean",
+    "name": "샤브촌by계백집",
+    "subname": "코엑스몰점",
+    "address": "서울 강남구 영동대로 513 코엑스 지하1층 I-107호",
+    "link": "https://naver.me/xOv43dy5"
+  },
+  {
+    "seq": 109,
+    "category": "korean",
+    "name": "북창동순두부",
+    "subname": "코엑스몰점",
+    "address": "서울 강남구 영동대로 513 스타필드 코엑스몰 B1층 B05호",
+    "link": "https://naver.me/x2jsdiSy"
+  },
+  {
+    "seq": 110,
+    "category": "korean",
+    "name": "끓임",
+    "subname": "삼성직영점",
+    "address": "서울 강남구 삼성로104길 11 2층",
+    "link": "https://naver.me/5zlGYNsl"
+  },
+  {
+    "seq": 111,
+    "category": "korean",
+    "name": "홍수계찜닭",
+    "subname": "포스코센터점",
+    "address": "서울 강남구 테헤란로 440 지하1층 C존 10호",
+    "link": "https://naver.me/xQNqMcVa"
+  },
+  {
+    "seq": 112,
+    "category": "korean",
+    "name": "직화한상",
+    "subname": "포스코점",
+    "address": "서울 강남구 테헤란로 440",
+    "link": "https://naver.me/xrPj107H"
+  },
+  {
+    "seq": 113,
+    "category": "korean",
+    "name": "밀양손만두",
+    "subname": "",
+    "address": "서울 강남구 테헤란로 504 지하1층 2호",
+    "link": "https://naver.me/Gv9hZtki"
+  },
+  {
+    "seq": 114,
+    "category": "korean",
+    "name": "옥된장",
+    "subname": "삼성점",
+    "address": "서울 강남구 테헤란로81길 46 1층, 2층",
+    "link": "https://naver.me/5Oc0JjgM"
+  },
+  {
+    "seq": 115,
+    "category": "korean",
+    "name": "우리집만두",
+    "subname": "선릉본점",
+    "address": "서울 강남구 선릉로 424",
+    "link": "https://naver.me/xzcnHceJ"
+  },
+  {
+    "seq": 116,
+    "category": "korean",
+    "name": "등촌샤브칼국수",
+    "subname": "삼성점",
+    "address": "서울 강남구 테헤란로81길 51 2층",
+    "link": "https://naver.me/GRmZhkRJ"
+  },
+  {
+    "seq": 117,
+    "category": "korean",
+    "name": "한국관",
+    "subname": "",
+    "address": "서울 강남구 삼성로82길 20 지층",
+    "link": "https://naver.me/GOu6GW2i"
+  },
+  {
+    "seq": 118,
+    "category": "korean",
+    "name": "골목찌개집",
+    "subname": "",
+    "address": "서울 강남구 삼성로95길 35 1층 골목찌개집",
+    "link": "https://naver.me/GZARXblX"
+  },
+  {
+    "seq": 119,
+    "category": "korean",
+    "name": "도담",
+    "subname": "삼성역점",
+    "address": "서울 강남구 삼성로96길 26-12 지하1층",
+    "link": "https://naver.me/5Rc8dzVE"
+  },
+  {
+    "seq": 120,
+    "category": "korean",
+    "name": "평창집",
+    "subname": "",
+    "address": "서울 강남구 테헤란로 511 B101호",
+    "link": "https://naver.me/5c20ZiGD"
+  },
+  {
+    "seq": 121,
+    "category": "korean",
+    "name": "이여곰탕",
+    "subname": "강남삼성직영점",
+    "address": "서울 강남구 삼성로 548 SISOMO 타워 1층",
+    "link": "https://naver.me/5kkelIZf"
+  },
+  {
+    "seq": 122,
+    "category": "korean",
+    "name": "순대실록",
+    "subname": "삼성역점",
+    "address": "서울 강남구 삼성로100길 13 1층 순대실록",
+    "link": "https://naver.me/Fcu8cLpj"
+  },
+  {
+    "seq": 123,
+    "category": "korean",
+    "name": "담미온",
+    "subname": "삼성중앙역점",
+    "address": "서울 강남구 삼성로100길 8 1층 담미온",
+    "link": "https://naver.me/5rsnAwER"
+  },
+  {
+    "seq": 124,
+    "category": "korean",
+    "name": "153구포국수",
+    "subname": "삼성역점",
+    "address": "서울 강남구 테헤란로87길 17 102호",
+    "link": "https://naver.me/GI8ww3qZ"
+  },
+  {
+    "seq": 125,
+    "category": "korean",
+    "name": "밀밭",
+    "subname": "코엑스몰점",
+    "address": "서울 강남구 테헤란로87길 36 B1층 B01호",
+    "link": "https://naver.me/5mYgveL5"
+  },
+  {
+    "seq": 126,
+    "category": "korean",
+    "name": "서울깍두기",
+    "subname": "코엑스점",
+    "address": "서울 강남구 테헤란로87길 36 지하1층",
+    "link": "https://naver.me/GOPq5K9y"
+  },
+  {
+    "seq": 127,
+    "category": "korean",
+    "name": "성수완당",
+    "subname": "현대백화점 무역센터점",
+    "address": "서울 강남구 테헤란로 521 현대백화점, 지하1층 식품관",
+    "link": "https://naver.me/GMW7FCCz"
+  },
+  {
+    "seq": 128,
+    "category": "korean",
+    "name": "삼백플러스",
+    "subname": "",
+    "address": "서울 강남구 테헤란로 447 KB우준타워 지하 1층",
+    "link": "https://naver.me/F9QzS2yX"
+  }
+]

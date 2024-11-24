@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+      format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'SejongGeulggot';
+    src: url(/fonts/SejongGeulggot.otf) format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Moneygraphy-Rounded';
+    src: url(/fonts/Moneygraphy-Rounded.woff) format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .transition-200 {
+    transition-property: color, background-color, border-color, fill, stroke;
+    transition-duration: 200ms;
+  }
+}
+
+html {
+  @apply transition-200 font-sejong text-sm bg-WHITE text-BLACK;
+}
+html.dark {
+  @apply bg-BLACK text-WHITE;
+}
+
+body {
+  @apply mx-auto text-center p-4;
+}
+
+.pannel {
+  @apply rounded-md bg-WHITE border border-LIGHT_GRAY dark:bg-DARK_GRAY my-4 shadow-pn dark:border dark:border-GRAY;
+}
+
+/* header */
+header {
+  @apply py-4;
+}
+.theme-toggle-button {
+  @apply transition-200 rounded-full w-[54px] h-[30px] px-[4px] flex items-center justify-between text-WHITE;
+}
+
+/* filter */
+.filter-accordion {
+  @apply flex items-center justify-between pb-4 px-2 text-MIDDLE_GRAY dark:text-LIGHT_GRAY;
+}
+.filter--wrap {
+  @apply flex flex-wrap gap-x-2 gap-y-3 justify-center;
+}
+.checkbox--label {
+  @apply transition-200 flex flex-col justify-center gap-1 cursor-pointer rounded-md size-[60px];
+}
+.checkbox--label-unchecked {
+  @apply border border-PRIMARY_INACTIVE text-PRIMARY_INACTIVE font-normal dark:text-WHITE dark:border-WHITE;
+}
+.checkbox--label-checked {
+  @apply border border-PRIMARY bg-PRIMARY bg-opacity-10 text-PRIMARY font-medium;
+}
+.filtered-data-list {
+  @apply text-sm mt-4 leading-relaxed text-MIDDLE_GRAY;
+}
+
+/* start button */
+.start-button {
+  @apply transition-200 text-lg font-medium text-WHITE bg-PRIMARY rounded-md w-full h-[50px];
+}
+.start-button:active {
+  @apply bg-PRIMARY_ACTIVE;
+}
+
+/* selected result */
+.result--info--wrap {
+  @apply flex flex-col gap-6 h-[250px] justify-center;
+}
+.result--name {
+  @apply text-4xl font-semibold;
+}
+.result--subname {
+  @apply text-lg;
+}
+.result--info {
+  @apply text-xs flex flex-col gap-1;
+}
+
+@media (min-width: 768px) {
+  body {
+    @apply w-[700px];
+  }
+
+  .checkbox--label-unchecked:hover {
+    @apply bg-PRIMARY bg-opacity-5 dark:bg-opacity-15;
+  }
+
+  .start-button:hover {
+    @apply bg-PRIMARY_HOVER;
+  }
+}
