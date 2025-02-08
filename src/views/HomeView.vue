@@ -46,8 +46,8 @@ import MaterialIcon from '@/components/MaterialIcon.vue'
 import data from '@/assets/data/data.json'
 import type { ResultInfo } from '@/types'
 
-const isCategoryShow = ref<Boolean>(true)
-const isDataShow = ref<Boolean>(false)
+const isCategoryShow = ref<boolean>(true)
+const isDataShow = ref<boolean>(false)
 const selectedCategory = ref<string[]>([])
 const resultInfo = ref<ResultInfo | undefined>(undefined)
 

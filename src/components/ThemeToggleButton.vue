@@ -13,11 +13,11 @@
   </button>
 </template>
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue'
+import { ref, onMounted } from 'vue'
 import MaterialIcon from '@/components/MaterialIcon.vue'
 
-const isDark = ref<Boolean>(false)
-const theme = computed(() => (isDark.value ? '다크' : '라이트'))
+const isDark = ref<boolean>(false)
+// const theme = computed(() => (isDark.value ? '다크' : '라이트'))
 
 const handleTheme = () => {
   isDark.value = !isDark.value
