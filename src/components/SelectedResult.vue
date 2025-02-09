@@ -49,3 +49,18 @@ const info = computed(() => {
       }
 })
 </script>
+<style scoped>
+.result--info--wrap {
+  @apply flex flex-col justify-center gap-6 h-[250px];
+}
+.result--name {
+  @apply text-4xl font-semibold;
+}
+.result--subname {
+  @apply text-lg;
+}
+.result--info {
+  @apply flex flex-col gap-1;
+  @apply text-xs;
+}
+</style>

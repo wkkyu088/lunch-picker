@@ -65,3 +65,18 @@ onMounted(() => {
   selected.value = [...FILTERS.map((filter) => filter.value)]
 })
 </script>
+<style scoped>
+.checkbox--label {
+  @apply flex flex-col justify-center gap-1 rounded-md size-[60px];
+  @apply transition-200 cursor-pointer;
+}
+.checkbox--label-unchecked {
+  @apply border border-PRIMARY_INACTIVE dark:border-WHITE;
+  @apply font-normal text-PRIMARY_INACTIVE dark:text-WHITE;
+}
+.checkbox--label-checked {
+  @apply bg-PRIMARY/10;
+  @apply border border-PRIMARY;
+  @apply font-medium text-PRIMARY;
+}
+</style>

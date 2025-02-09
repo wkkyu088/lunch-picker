@@ -1,0 +1,41 @@
+{
+   "root": true,
+   "extends": [
+      "prettier",
+      "plugin:vue/vue3-recommended",
+      "airbnb-base",
+      "eslint:recommended",
+      "@vue/eslint-config-prettier"
+   ],
+   "parser": "vue-eslint-parser",
+   "parserOptions": {
+      "ecmaVersion": "latest"
+   },
+   "plugins": ["prettier"],
+   "rules": {
+      "vue/multi-word-component-names": "off"
+    //   "vue/require-prop-types": "off",
+    //   "vue/v-on-event-hyphenation": "off",
+    //   "vue/attribute-hyphenation": "off",
+    //   "vue/no-v-html": "off",
+    //   "vue/custom-event-name-casing": ["error", "camelCase"],
+    //   "vue/prop-name-casing": ["error", "camelCase"],
+    //   "prettier/prettier": ["error", { "endOfLine": "auto" }],
+    //   "no-restricted-globals": "off",
+    //   "no-param-reassign": "off",
+    //   "no-throw-literal": "off",
+    //   "no-shadow": "off",
+    //   "no-await-in-loop": "off",
+    //   "camelcase": "off",
+    //   "import/no-extraneous-dependencies": "off",
+    //   "import/prefer-default-export": "off"
+   },
+   "settings": {
+      "import/resolver": {
+         "alias": {
+            "map": [["@", "./src"]],
+            "extensions": [".js", ".vue"]
+         }
+      }
+   }
+}
