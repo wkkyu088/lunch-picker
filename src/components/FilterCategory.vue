@@ -1,26 +1,33 @@
 <template>
-  <label v-for="filter in FILTERS" :key="filter.value">
-    <input
-      type="checkbox"
-      :value="filter.value"
-      :checked="isChecked(filter.value)"
-      @change="handleFilterChange(filter.value, $event)"
-      hidden
-    />
-    <div
-      class="checkbox--label"
-      :class="{
-        'checkbox--label-checked': isChecked(filter.value),
-        'checkbox--label-unchecked': !isChecked(filter.value),
-      }"
-    >
-      <div v-if="filter.emoji">{{ filter.emoji }}</div>
-      <div>{{ filter.name }}</div>
-    </div>
-  </label>
+  <FilterAccordion title="분류">
+    <template #filter>
+      <div class="filter--wrap">
+        <label v-for="filter in FILTERS" :key="filter.value">
+          <input
+            type="checkbox"
+            :value="filter.value"
+            :checked="isChecked(filter.value)"
+            @change="handleFilterChange(filter.value, $event)"
+            hidden
+          />
+          <div
+            class="checkbox--label"
+            :class="{
+              'checkbox--label-checked': isChecked(filter.value),
+              'checkbox--label-unchecked': !isChecked(filter.value),
+            }"
+          >
+            <div v-if="filter.emoji">{{ filter.emoji }}</div>
+            <div>{{ filter.name }}</div>
+          </div>
+        </label>
+      </div>
+    </template>
+  </FilterAccordion>
 </template>
 <script setup lang="ts">
 import { onMounted } from 'vue'
+import FilterAccordion from '@/components/FilterAccordion.vue'
 import type { CategoryFilter } from '@/types'
 
 const FILTERS: CategoryFilter[] = [
@@ -66,6 +73,9 @@ onMounted(() => {
 })
 </script>
 <style scoped>
+.filter--wrap {
+  @apply flex flex-wrap justify-center gap-x-2 gap-y-3;
+}
 .checkbox--label {
   @apply flex flex-col justify-center gap-1 rounded-md size-[60px];
   @apply transition-200 cursor-pointer;

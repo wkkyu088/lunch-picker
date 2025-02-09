@@ -3,33 +3,26 @@
     <span class="text-gray-500 absolute left-1/2 -translate-x-1/2">오늘 뭐 먹지</span>
     <Sidebar />
   </header>
-  <section class="flex flex-col gap-8 px-6 py-8 items-center pannel">
-    <div class="w-full">
-      <div class="filter-accordion">
-        <span>필터: 분류</span>
-        <button @click="isCategoryShow = !isCategoryShow">
-          <MaterialIcon v-if="isCategoryShow" icon="keyboard_arrow_up" />
-          <MaterialIcon v-else icon="keyboard_arrow_down" />
+  <main class="flex flex-col gap-4 p-6 items-center pannel">
+    <FilterLocation />
+    <div class="w-full h-[1px] bg-LIGHT_GRAY dark:bg-GRAY"></div>
+    <FilterCategory v-model:selectedCategory="selectedCategory" />
+  </main>
+  <main class="flex flex-col gap-6 p-6 items-center pannel">
+    <section>
+      <div class="flex justify-center items-center gap-1">
+        총 <u>{{ filteredData.length }}개</u> 중
+        <button @click="isDataShow = !isDataShow" class="flex items-center">
+          <MaterialIcon v-if="isDataShow" icon="arrow_drop_up" :size="18" />
+          <MaterialIcon v-else icon="arrow_drop_down" :size="18" />
         </button>
       </div>
-      <section v-show="isCategoryShow" class="filter--wrap">
-        <CategoryFilter v-model:selectedCategory="selectedCategory" />
-      </section>
-      <section class="mt-8">
-        <div class="flex justify-center items-center gap-1">
-          총 <u>{{ filteredData.length }}개</u> 중
-          <button @click="isDataShow = !isDataShow" class="flex items-center">
-            <MaterialIcon v-if="isDataShow" icon="arrow_drop_up" :size="18" />
-            <MaterialIcon v-else icon="arrow_drop_down" :size="18" />
-          </button>
-        </div>
-        <div v-show="isDataShow && filteredData.length" class="filtered-data-list">
-          {{ filteredData.map((item) => item.name).join(' | ') }}
-        </div>
-      </section>
-    </div>
+      <div v-show="isDataShow && filteredData.length" class="filtered-data-list">
+        {{ filteredData.map((item) => item.name).join(' | ') }}
+      </div>
+    </section>
     <StartButton @click="handleStart" />
-  </section>
+  </main>
   <main class="pannel">
     <SelectedResult :resultInfo />
   </main>
@@ -37,14 +30,14 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
 import Sidebar from '@/components/Sidebar.vue'
-import CategoryFilter from '@/components/CategoryFilter.vue'
+import FilterCategory from '@/components/FilterCategory.vue'
+import FilterLocation from '@/components/FilterLocation.vue'
 import StartButton from '@/components/StartButton.vue'
 import SelectedResult from '@/components/SelectedResult.vue'
 import MaterialIcon from '@/components/MaterialIcon.vue'
 import data from '@/assets/data/data.json'
 import type { ResultInfo } from '@/types'
 
-const isCategoryShow = ref<boolean>(true)
 const isDataShow = ref<boolean>(false)
 const selectedCategory = ref<string[]>([])
 const resultInfo = ref<ResultInfo | undefined>(undefined)
@@ -70,15 +63,8 @@ const handleStart = async () => {
   @apply border border-LIGHT_GRAY dark:border dark:border-GRAY;
   @apply shadow-pn;
 }
-.filter-accordion {
-  @apply flex justify-between items-center pb-4 px-2;
-  @apply text-MIDDLE_GRAY dark:text-LIGHT_GRAY;
-}
-.filter--wrap {
-  @apply flex flex-wrap justify-center gap-x-2 gap-y-3;
-}
 .filtered-data-list {
   @apply mt-4;
-  @apply text-smleading-relaxed text-MIDDLE_GRAY;
+  @apply text-sm leading-relaxed text-MIDDLE_GRAY;
 }
 </style>

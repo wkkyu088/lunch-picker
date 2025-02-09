@@ -13,5 +13,5 @@
 import { toRefs } from 'vue'
 
 const props = defineProps<{ icon: string; size?: number }>()
-const { icon } = toRefs(props)
+const { icon, size } = toRefs(props)
 </script>

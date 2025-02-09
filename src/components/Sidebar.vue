@@ -14,8 +14,8 @@
       <button 
         class="sidebar-button--common text-WHITE"
         :class="{
-          'bg-PRIMARY hover:bg-PRIMARY/80 active:bg-PRIMARY/80': !isDark, 
-          'bg-PRIMARY_INACTIVE/60 hover:bg-PRIMARY_INACTIVE/80 active:bg-PRIMARY_INACTIVE/80': isDark
+          'bg-PRIMARY md:hover:bg-PRIMARY/80 active:bg-PRIMARY/80': !isDark,
+          'bg-PRIMARY_INACTIVE/60 md:hover:bg-PRIMARY_INACTIVE/80 active:bg-PRIMARY_INACTIVE/80': isDark
         }" 
         @click="handleTheme"
       >
@@ -60,7 +60,7 @@ onMounted(() => {
 </script>
 <style scoped>
 .sidebar--wrap {
-  @apply fixed top-0 left-0 h-[100vh] z-10 overflow-hidden;
+  @apply fixed top-0 left-0 h-[100vh] z-50 overflow-hidden;
   @apply transition-all duration-300;
 }
 .sidebar--inner {
@@ -78,11 +78,17 @@ onMounted(() => {
   @apply border border-LIGHT_GRAY dark:border dark:border-GRAY;
 }
 .sidebar-button--theme {
-  @apply bg-LIGHT_GRAY/50 hover:bg-LIGHT_GRAY active:bg-LIGHT_GRAY dark:bg-GRAY/50 dark:hover:bg-GRAY dark:active:bg-GRAY;
+  @apply bg-LIGHT_GRAY/50 active:bg-LIGHT_GRAY dark:bg-GRAY/50 dark:active:bg-GRAY;
   @apply text-BLACK dark:text-WHITE;
 }
 .background {
-  @apply fixed top-0 left-0 w-full h-full z-10;
+  @apply fixed top-0 left-0 w-full h-full z-50;
   @apply bg-BLACK/40 backdrop-blur-sm;
+}
+
+@media screen and (min-width: 768px) {
+  .sidebar-button--theme {
+    @apply hover:bg-LIGHT_GRAY/80 active:bg-LIGHT_GRAY dark:hover:bg-GRAY/80 dark:active:bg-GRAY;
+  }
 }
 </style>
