@@ -1,9 +1,7 @@
 <template>
-  <header class="relative">
-    <span class="text-gray-500">오늘 뭐 먹지</span>
-    <div class="absolute top-1/2 right-1 transform -translate-y-1/2">
-      <ThemeToggleButton />
-    </div>
+  <header class="relative flex justify-between items-center">
+    <span class="text-gray-500 absolute left-1/2 -translate-x-1/2">오늘 뭐 먹지</span>
+    <Sidebar />
   </header>
   <section class="flex flex-col gap-8 px-6 py-8 items-center pannel">
     <div class="w-full">
@@ -38,7 +36,7 @@
 </template>
 <script setup lang="ts">
 import { ref, computed } from 'vue'
-import ThemeToggleButton from '@/components/ThemeToggleButton.vue'
+import Sidebar from '@/components/Sidebar.vue'
 import CategoryFilter from '@/components/CategoryFilter.vue'
 import StartButton from '@/components/StartButton.vue'
 import SelectedResult from '@/components/SelectedResult.vue'
@@ -65,3 +63,22 @@ const handleStart = async () => {
   }
 }
 </script>
+<style scoped>
+.pannel {
+  @apply rounded-md my-4;
+  @apply bg-WHITE dark:bg-DARK_GRAY;
+  @apply border border-LIGHT_GRAY dark:border dark:border-GRAY;
+  @apply shadow-pn;
+}
+.filter-accordion {
+  @apply flex justify-between items-center pb-4 px-2;
+  @apply text-MIDDLE_GRAY dark:text-LIGHT_GRAY;
+}
+.filter--wrap {
+  @apply flex flex-wrap justify-center gap-x-2 gap-y-3;
+}
+.filtered-data-list {
+  @apply mt-4;
+  @apply text-smleading-relaxed text-MIDDLE_GRAY;
+}
+</style>
