@@ -5,12 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host",
-    "build": "run-p type-check \"build-only {@}\" --",
-    "preview": "vite preview --host --port 4174",
+    "build": "vite build",
+    "preview": "vite preview --host --port 4175",
     "test:e2e": "playwright test",
-    "build-only": "vite build",
     "type-check": "vue-tsc --build --force",
-    "lint": "eslint . --fix",
+    "lint": "eslint",
     "format": "prettier --write src/"
   },
   "dependencies": {
@@ -32,7 +31,8 @@
     "eslint-plugin-vue": "^9.30.0",
     "npm-run-all2": "^7.0.1",
     "postcss": "^8.4.49",
-    "prettier": "^3.3.3",
+    "prettier": "^3.5.2",
+    "prettier-plugin-tailwindcss": "^0.6.11",
     "tailwindcss": "^3.4.15",
     "typescript": "~5.6.3",
     "vite": "^5.4.10",
