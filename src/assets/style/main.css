@@ -5,67 +5,66 @@
 @tailwind utilities;
 
 @layer base {
-  @font-face {
-    font-family: 'Pretendard-Regular';
-    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
-      format('woff');
-    font-weight: 400;
-    font-style: normal;
-  }
+	@font-face {
+		font-family: 'Pretendard-Regular';
+		src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+			format('woff');
+		font-weight: 400;
+		font-style: normal;
+	}
 
-  @font-face {
-    font-family: 'SejongGeulggot';
-    src: url(/fonts/SejongGeulggot.otf) format('opentype');
-    font-weight: 400;
-    font-style: normal;
-  }
+	@font-face {
+		font-family: 'SejongGeulggot';
+		src: url(/fonts/SejongGeulggot.otf) format('opentype');
+		font-weight: 400;
+		font-style: normal;
+	}
 
-  @font-face {
-    font-family: 'Moneygraphy-Rounded';
-    src: url(/fonts/Moneygraphy-Rounded.woff) format('woff');
-    font-weight: 400;
-    font-style: normal;
-  }
+	@font-face {
+		font-family: 'Moneygraphy-Rounded';
+		src: url(/fonts/Moneygraphy-Rounded.woff) format('woff');
+		font-weight: 400;
+		font-style: normal;
+	}
 
-  .transition-200 {
-    transition-property: color, background-color, border-color, fill, stroke;
-    transition-duration: 200ms;
-  }
+	.transition-200 {
+		transition-property: color, background-color, border-color, fill, stroke;
+		transition-duration: 200ms;
+	}
 
-  .transition-400 {
-    transition-property: color, background-color, border-color, fill, stroke;
-    transition-duration: 400ms;
-  }
+	.transition-400 {
+		transition-property: color, background-color, border-color, fill, stroke;
+		transition-duration: 400ms;
+	}
 }
 
 .fade-enter-active,
 .fade-leave-active {
-  transition: opacity 0.5s ease;
+	transition: opacity 0.5s ease;
 }
 
 .fade-enter-from,
 .fade-leave-to {
-  opacity: 0;
+	opacity: 0;
 }
-
 
 html {
-  @apply transition-200 font-sejong text-sm bg-WHITE text-BLACK;
+	@apply transition-200 bg-WHITE font-sejong text-sm text-BLACK;
 }
 html.dark {
-  @apply bg-BLACK text-WHITE;
+	@apply bg-BLACK text-WHITE;
 }
 
 body {
-  @apply mx-auto text-center p-4;
+	@apply mx-auto p-16 text-center;
 }
 
 header {
-  @apply py-4;
+	@apply py-16;
 }
 
 @media screen and (min-width: 768px) {
-  body {
-    @apply w-[700px];
-  }
+	body {
+		@apply w-[700px];
+	}
 }
